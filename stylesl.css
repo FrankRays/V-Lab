@@ -1,0 +1,46 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{background-color:#F3F2ED;}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:900px;margin:0 auto}
+div#content{float:right;width:700px}
+div#navigation{float:left;width:200px}
+div#extra{float:right;width:700px}
+div#footer{clear:both;width:100%}
+fieldset {border:0}
+#register-form { clear:right;width:100%;overflow:hidden}
+#register-form fieldset { border:none;float:left;}
+#register-form .field { clear:both}
+#register-form label { float:left;width:130px;line-height:18px;padding-bottom:8px;color:#454545}
+#register-form input[type="text"] { width:250px;padding:1px 0 1px 3px;border:1px solid #aaa;color:#70635b;background:none}
+#register-form input[type="password"] { width:250px;padding:1px 0 1px 3px;border:1px solid #aaa;color:#70635b;background:none}
+#register-form select { width:250px;padding:1px 0 1px 3px;border:1px solid #aaa;color:#70635b;background:none}
+#register-form textarea { width:465px;height:192px;padding:1px 0 1px 3px;border:1px solid #aaa;color:#70635b;margin-bottom:15px;overflow:auto;background:none}
+#register-form .link1 {float:right}
+button {
+	 
+  border: 1px solid #000;
+  color: #4b4634;
+  /*background-color: #a1955b;*/
+  font-weight: bold;
+  width: 150px;
+}
+#but{
+	/*border: 1px solid #000;*/
+	padding: 2px;
+}
+#but button:hover
+{
+	color: #fff;
+	background-color: #000;
+}

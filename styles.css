@@ -1,0 +1,362 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+	
+body {
+	
+	background: #003366 url(images/back_all.gif);
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 868px;
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+}
+
+
+#header {
+	height: 252px;
+	width: 868px;
+	
+}
+
+#menu
+{
+width: 718px;
+height: 65px;
+padding-left: 150px;
+background: url(images/menu.gif) repeat-x;
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 100px;
+	height: 40px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #7C7028;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 22px;
+}
+.drag
+{
+	top:550px;
+	left:590px;
+	position:absolute;
+	overflow:auto;
+	float:left; 
+}
+
+#menu a:hover {
+	width: 100px;
+    height: 40px;
+	color: #e20000;
+	text-decoration: none;
+	background: url(images/menu_r.gif) repeat-x;
+}
+button {
+	 
+  border: 1px solid #000;
+  color: #4b4634;
+  /*background-color: #a1955b;*/
+  font-weight: bold;
+  width: 150px;
+}
+#but{
+	/*border: 1px solid #000;*/
+	padding: 2px;
+}
+#but button:hover
+{
+	color: #fff;
+	background-color: #000;
+}
+
+.main {
+width:200px;
+/*border:1px solid black;*/
+}
+
+.month {
+background-color:black;
+font:bold 11px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 10px verdana;
+color:white;
+}
+
+.days {
+font-size: 11px;
+font-family:verdana;
+color:black;
+background-color: white;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+.more
+{
+text-align: right;
+}
+#answer
+{
+	position:absolute;
+	text-align:left;
+	width: 50px;
+	color: rgba(21, 68, 168, 0.89);
+}
+#answer a
+{
+	color: rgba(21, 68, 168, 0.89);
+}
+#logo {
+width: 848px;
+float: right;
+height: 168px;
+text-align:  right;
+padding-right: 20px;
+padding-top: 20px;
+background: url(images/header.jpg) no-repeat;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #ACA05A;
+}
+#logo H2 a
+{
+font-size: 12px;
+}
+
+#main
+{
+background: #ffffff;
+padding-top: 10px;
+}
+
+#left
+{
+	margin-left: 10px;
+	width: 221px;
+}
+
+#left H3
+{
+width: 196px;
+height: 33px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat
+}
+
+
+#left ul {
+	list-style: none;
+}
+
+#left li ul {
+	border: 0px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#left li li {
+	padding: 4px 15px;
+    background: url(images/small.gif) no-repeat left;
+}
+
+#left .title_back
+{
+background: url(images/title_back.gif) no-repeat;
+padding: 10px;
+}
+
+
+#left a {
+	color: #23609C;
+}
+#left a:visited {
+	color: #23609C;
+}
+
+#left p
+{
+padding: 10px;
+padding-left: 40px;
+}
+
+
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #696969;
+	border: 1px solid #ff0000;
+	font-weight: bold;
+	color: #ffffff
+}
+
+#right
+{
+float: right;
+width: 620px;
+padding-right: 10px;
+}
+
+#right .box
+{
+border: 1px solid #C9C9C9;
+background: #F5F5F5;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+#right ol, #right ul
+{
+margin-left: 30px;
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #23609C;
+}
+
+#right a
+{
+color: #B5AA6D;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right .date2 {
+	margin: 10px;
+	padding: 0;
+	padding-top: 5px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #B5AA6D;
+}
+#right h3 {
+	margin: 0;
+	padding: 0;
+	padding-top: 0px;
+	color: #B5AA6D;
+}
+
+#date {
+	text-align: right;
+	color: rgba(21, 68, 168, 0.89);
+	font-size: 12.5px
+}
+
+#date a {
+	color: red;
+}
+#date p{
+	color: blue;
+}
+
+#footer {
+	height: 39px;
+	clear: both;
+	padding-top: 20px;
+	background: url(images/menu_r.gif) repeat-x; 
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+#footer a {color: #ffffff;}
+.warning{color:orange;}
+.alert{color:red;}
+.success{color:green;}
